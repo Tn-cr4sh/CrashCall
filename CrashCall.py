@@ -7,12 +7,12 @@ try:
  ) _ (  )(_)(  )(_)(  )(_)(    )(_)(   )(   )___/
 (_) (_)(_____)(_____)(___/\\\  (_____) (__) (__)  
 """)
-date
+Print("date
 echo ___________________________________________________
 echo Author by	: Tn-Cr4sh
 echo Team        : Crash System Squad		
 echo Github	: https://github.com/Tn-cr4sh
-echo ___________________________________________________
+echo ___________________________________________________")
 	br = mechanize.Browser()
 	br.set_handle_equiv(True)
 	br.set_handle_gzip(True)
