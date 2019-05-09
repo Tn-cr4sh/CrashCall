@@ -8,11 +8,11 @@ try:
 (_) (_)(_____)(_____)(___/\\\  (_____) (__) (__)  
 """)
 date
-echo $purple"___________________________________________________"
-echo $cyan" ["$red"+"$cyan"]Author by	: Tn-Cr4sh" 
-echo $cyan" ["$red"+"$cyan"]Team        : Crash System Squad" 		
-echo $cyan" ["$red"+"$cyan"]Github	: https://github.com/Tn-cr4sh"
-echo $purple"___________________________________________________"
+echo ___________________________________________________
+echo Author by	: Tn-Cr4sh
+echo Team        : Crash System Squad		
+echo Github	: https://github.com/Tn-cr4sh
+echo ___________________________________________________
 	br = mechanize.Browser()
 	br.set_handle_equiv(True)
 	br.set_handle_gzip(True)
