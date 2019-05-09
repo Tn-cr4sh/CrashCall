@@ -2,11 +2,42 @@ try:
 	import mechanize,os,sys,time
 	
 	print("""\033[97m
- _   _  _____  _____  _____    _____  ____  ____ 
-( )_( )(  _  )(  _  )(  _  )  (  _  )(_  _)(  _ \\
- ) _ (  )(_)(  )(_)(  )(_)(    )(_)(   )(   )___/
-(_) (_)(_____)(_____)(___/\\\  (_____) (__) (__)  
-""")
+                        .:+ooooooo++ooooooo+:.                        
+                   ./ooo/-`                `-/ooo/.                   
+                :os+-                            .+ss:`               
+             -ss:                                    :ss:             
+          `+y/`                                        `/y+`          
+         +y:                                              -y+`        
+       :h:      .-          `....-..-...``          -.      :h:       
+     `so     :ym+      `....-.` -`..`- `.-....`      omy:     oy`     
+    .h:  -o-hMd.     .-.  ..`  .. .. ..  `..  .-.     -mMh-o-  :h.    
+   -d.  oN-yd++`  `.. `..--`  `-  ..  -```.--.`` ..   `++my-M+  .d.   
+  .d. :-Md.+sm:  ..    `-  ``.:./d+oNd-:``   -`    ..  :ms+.dM-: .d.  
+ `d- oy/Mommo` `-`    `-     `. .+--Nm`.`     -`    `-` `omdoM/yo :d  
+ oo -Mh:mh:+. `-.`    -      -    .s-  `-      -    `.-` .+/hm-hM. s+ 
+`m` /Mm-+sNo  -  ``..--.``` `-    --    -`  ```--...`  -  oNs+-mM/ `m`
++s --Mm:NN/  -`      -   ```--....mm....--.```  -      `.  /NN:mM-- s/
+h: h`sdmy.: `-      `-      .`   `--`   `.      -`      -  :.hmds`h :y
+m` ms`do.d: ..      `.      -`.:/hddh/:``-      .`      .` :d.od`ym .d
+N` hMs-:Nm` .-......--.....-ohM+ .mm. oMho-.....-.......-. `NN--sMh `m
+m` -NM:dM/` `.      `./hmNMMMMN` .so. `MMMMMNmh:.`      .` `/Md:MN- .d
+h: +-mhmy`h `-      `-MMMMMMMMN` `NN` `NMMMMMMMN-`      -  h`yddm-+ :y
++s yy.sN:/M- -`      +MMMMMMMMMo .MM. oMMMMMMMMM+      `. -M::Ns.yy s+
+`m``mNo:-yM+  -  `...dMMMMMMMMMM/-MM./MMMMMMMMMMd...`` -  +My-:oNm``m`
+ oo `yMN/sMo-+`-.`   mMMMMMMMMMMMhMMhMMMMMMMMMMMm    .-`+-oMs/NMy` so 
+ `d- -:yNymh`Ny`-`  -MMMMMMMMMMMMMMMMMMMMMMMMMMMM.  `-`yN hmyNy:- :d  
+  .d.`y+./oN-yMo .. oMMMMMMMMMMMMMMMMMMMMMMMMMMMMo .. oMy-No:.+y`.d.  
+   -d.`oNds/:.NM:/:.hMMMMMMMMMMMMMMMMMMMMMMMMMMMMh.:/:MN.//sdNo .d.   
+    .h: `+dMMdsdm.hdyMMMMMMMMMMMMMMMMMMMMMMMMMMMMydh.mdsdMMh+` :h.    
+     `so  .::+syyd:yMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMy:dyys+::.  os`     
+       :h: .ohhysssoohdNMMMMMMMMMMMMMMMMMMMMMMNdhoosssyhho. :h:       
+         +y:  .+osyyys+//sMMMMMMMMMMMMMMMMMMs//+syyyso+.  :y+         
+           +y/``:oysyhmMMMMMMMMMMMMMMMMMMMMMMMMmhysyo: `/y+`          
+             -ss:``-:///:oMMMMMMMMMMMMMMMMMMo:///:-` :ss-             
+                :os+-    oMMMMMMMMMMMMMMMMMMo    .+ss:                
+                   ./ooo/hMMMMMMMMMMMMMMMMMMy/ooo/.                   
+                        .:+syhdmNNMMNNmmdys+:.                        
+
 	br = mechanize.Browser()
 	br.set_handle_equiv(True)
 	br.set_handle_gzip(True)
